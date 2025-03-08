@@ -1,5 +1,5 @@
 {
-  "name": "cycle-exam-results-api",
+  "name": "exam-results-api",
   "version": "1.0.0",
   "description": "Backend API for Exam Results Portal",
   "main": "app.js",
