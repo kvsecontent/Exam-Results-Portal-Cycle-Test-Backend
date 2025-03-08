@@ -21,7 +21,7 @@ app.get('/api/student/:rollNumber', async (req, res) => {
     const { rollNumber } = req.params;
     
     // Fetch data from Google Sheets API
-    const url = `https://sheets.googleapis.com/v4/spreadsheets/${SHEET_ID}/values/cycle_test?key=${API_KEY}`;
+    const url = `https://sheets.googleapis.com/v4/spreadsheets/${SHEET_ID}/values/cycletest?key=${API_KEY}`;
     const response = await axios.get(url);
     const data = response.data;
     
